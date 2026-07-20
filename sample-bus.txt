@@ -1,0 +1,5 @@
+Sample Bus Pass
+Name: John
+Route: Pune-Mumbai
+Pass Type: Monthly
+Price: ₹800

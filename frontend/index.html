@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cloud-Based Bus Pass System</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Cloud-Based Bus Pass System</h1>
+
+      <form id="busPassForm">
+        <input type="text" id="name" placeholder="Full Name" required />
+
+        <input type="email" id="email" placeholder="Email" required />
+
+        <input type="text" id="phone" placeholder="Phone Number" required />
+
+        <input type="text" id="route" placeholder="Bus Route" required />
+
+        <select id="passType">
+          <option>Daily</option>
+          <option>Weekly</option>
+          <option>Monthly</option>
+        </select>
+
+        <button type="submit">Apply Bus Pass</button>
+      </form>
+
+      <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
